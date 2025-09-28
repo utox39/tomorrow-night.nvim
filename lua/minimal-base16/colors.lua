@@ -9,7 +9,7 @@ return {
     cursor_fg        = '#6D6F73',
     context          = '#515A61',
     cursor_bg        = '#767777',
-    accent           = '#c5c8c6',
+    accent           = '#cccccc',
     diff_add         = '#b5bd68',
     diff_change      = '#6CAEC0',
     cl_bg            = "#687177",

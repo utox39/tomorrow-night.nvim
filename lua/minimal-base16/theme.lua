@@ -16,7 +16,7 @@ M.base = {
     -----------------------------------------
     --        Editors settings
     -----------------------------------------
-    Boolean = { fg = colors.cyan,  style = config.italic_booleans },
+    Boolean      = { fg = colors.cyan, style = config.italic_booleans },
 
     Character    = { fg = colors.green_func },
     ColorColumn  = { bg = colors.black1 },
@@ -30,110 +30,111 @@ M.base = {
     CursorLine   = { bg = colors.black1 },
     CursorLineNr = { fg = colors.white, bg = colors.gutter_bg, style = 'bold' },
 
-    Debug       = { fg = colors.fg },
-    Define      = { fg = colors.red_key_w },
-    Delimiter   = { fg = colors.white },
-    DiffAdd     = { fg = colors.green_func },
-    DiffAdded   = { fg = colors.green_func },
-    DiffChange  = { fg = colors.green_func },
-    DiffDelete  = { fg = colors.red_key_w },
-    DiffRemoved = { fg = colors.red_key_w },
-    DiffText    = { fg = colors.white1 },
-    DiffFile    = { fg = colors.pink },
+    Debug        = { fg = colors.fg },
+    Define       = { fg = colors.red_key_w },
+    Delimiter    = { fg = colors.white },
+    DiffAdd      = { fg = colors.green_func },
+    DiffAdded    = { fg = colors.green_func },
+    DiffChange   = { fg = colors.green_func },
+    DiffDelete   = { fg = colors.red_key_w },
+    DiffRemoved  = { fg = colors.red_key_w },
+    DiffText     = { fg = colors.white1 },
+    DiffFile     = { fg = colors.pink },
     -- DiffIndexLine     = { fg = colors.gray3 },
 
 
     -- EndOfBuffer = { fg = colors.bg },
-    Error     = { fg = colors.red_key_w, bg = colors.bg, style = 'bold' },
-    ErrorMsg  = { fg = colors.gray, bg = colors.red_err, style = 'bold' },
-    Exception = { fg = colors.white },
+    Error                     = { fg = colors.red_key_w, bg = colors.bg, style = 'bold' },
+    ErrorMsg                  = { fg = colors.gray, bg = colors.red_err, style = 'bold' },
+    Exception                 = { fg = colors.white },
 
-    Float       = { fg = colors.orange },
-    FloatBorder = { fg = colors.gray2, bg = "NONE" },
-    FoldColumn  = { fg = colors.line_fg },
-    Folded      = { fg = colors.white, bg = colors.gray },
-    Function    = { fg = colors.blue_func },
+    Float                     = { fg = colors.orange },
+    FloatBorder               = { fg = colors.gray2, bg = "NONE" },
+    FoldColumn                = { fg = colors.line_fg },
+    Folded                    = { fg = colors.white, bg = colors.gray },
+    Function                  = { fg = colors.blue_func },
 
-    Identifier = { fg = colors.white1 },
-    Ignore     = { fg = colors.gray_punc },
-    IncSearch  = { fg = colors.bg, bg = colors.orange },
-    Include    = { fg = colors.red_key_w,  style = config.italic_keywords },
+    Identifier                = { fg = colors.white1 },
+    Ignore                    = { fg = colors.gray_punc },
+    IncSearch                 = { fg = colors.bg, bg = colors.orange },
+    Include                   = { fg = colors.red_key_w, style = config.italic_keywords },
 
-    Keyword = { fg = colors.pink, style = config.italic_keywords },
+    Keyword                   = { fg = colors.pink, style = config.italic_keywords },
 
-    Label  = { fg = colors.red_key_w },
-    LineNr = { fg = colors.line_fg, bg = colors.line_bg },
+    Label                     = { fg = colors.red_key_w },
+    LineNr                    = { fg = colors.line_fg, bg = colors.line_bg },
 
-    Macro         = { fg = colors.red_key_w,  style = config.italic_keywords },
-    MatchParen    = { fg = colors.white1, bg = colors.black },
-    MatchParenCur = { style = 'underline' },
-    MatchWord     = { style = 'underline' },
-    MatchWordCur  = { style = 'underline' },
-    ModeMsg       = { fg = colors.fg, bg = colors.bg },
-    MoreMsg       = { fg = colors.orange_wr },
-    MsgArea       = { fg = colors.fg, bg = config.transparent_background and 'NONE' or colors.bg },
-    MsgSeparator  = { fg = colors.fg, bg = colors.bg },
+    Macro                     = { fg = colors.red_key_w, style = config.italic_keywords },
+    MatchParen                = { fg = colors.white1, bg = colors.black },
+    MatchParenCur             = { style = 'underline' },
+    MatchWord                 = { style = 'underline' },
+    MatchWordCur              = { style = 'underline' },
+    ModeMsg                   = { fg = colors.fg, bg = colors.bg },
+    MoreMsg                   = { fg = colors.orange_wr },
+    MsgArea                   = { fg = colors.fg, bg = config.transparent_background and 'NONE' or colors.bg },
+    MsgSeparator              = { fg = colors.fg, bg = colors.bg },
 
-    NonText     = { fg = colors.gray2 },
-    Normal      = { fg = colors.fg, bg = config.transparent_background and 'NONE' or colors.bg },
-    NormalFloat = { bg = colors.dark },
-    NormalNC    = { fg = colors.white, bg = config.transparent_background and 'NONE' or colors.bg },
-    Number      = { fg = colors.orange },
+    NonText                   = { fg = colors.gray2 },
+    Normal                    = { fg = colors.fg, bg = config.transparent_background and 'NONE' or colors.bg },
+    NormalFloat               = { bg = colors.dark },
+    NormalNC                  = { fg = colors.white, bg = config.transparent_background and 'NONE' or colors.bg },
+    Number                    = { fg = colors.orange },
 
-    Operator   = { fg = colors.white },
-    Pmenu      = { fg = colors.white1, bg = colors.black },
-    PmenuSbar  = { bg = colors.gray },
-    PmenuSel   = { fg = colors.line_fg, bg = colors.black },
-    PmenuThumb = { bg = colors.black },
-    PreCondit  = { fg = colors.pink },
-    PreProc    = { fg = colors.blue_func },
+    Operator                  = { fg = colors.white },
+    Pmenu                     = { fg = colors.white1, bg = colors.black },
+    PmenuSbar                 = { bg = colors.gray },
+    -- PmenuSel   = { fg = colors.line_fg, bg = colors.black },
+    PmenuSel                  = { fg = colors.white1, bg = colors.gray },
+    PmenuThumb                = { bg = colors.black },
+    PreCondit                 = { fg = colors.pink },
+    PreProc                   = { fg = colors.blue_func },
 
-    Question     = { fg = colors.green_func },
-    QuickFixLine = { fg = colors.orange_wr },
+    Question                  = { fg = colors.green_func },
+    QuickFixLine              = { fg = colors.orange_wr },
 
-    Repeat = { fg = colors.pink },
+    Repeat                    = { fg = colors.pink },
 
-    Search              = { fg = colors.line_fg, bg = colors.orange },
-    SignColumn          = { bg = colors.line_bg },
-    Special             = { fg = colors.red_key_w },
-    SpecialChar         = { fg = colors.green_func },
-    SpecialComment      = { fg = colors.pink },
-    SpecialKey          = { fg = colors.gray_punc, style = 'bold' },
-    SpellBad            = { fg = colors.red_key_w, style = 'underline' },
-    SpellCap            = { fg = colors.orange, style = 'underline' },
-    SpellLocal          = { fg = colors.green, style = 'underline' },
-    SpellRare           = { fg = colors.pink, style = 'underline' },
-    Statement           = { fg = colors.red_key_w },
-    StatusLine          = { fg = colors.line_fg, bg = colors.black },
-    StatusLineNC        = { fg = colors.line_fg, bg = colors.black },
-    StatusLineSeparator = { fg = colors.dark },
-    StatusLineTerm      = { fg = colors.green_func, bg = colors.black },
-    StatusLineTermNC    = { fg = colors.gray_punc, bg = colors.black },
-    StorageClass        = { fg = colors.red_key_w },
-    String              = { fg = colors.green_func },
-    Structure           = { fg = colors.blue_func },
-    Substitute          = { fg = colors.gray2, bg = colors.orange },
+    Search                    = { fg = colors.line_fg, bg = colors.orange },
+    SignColumn                = { bg = colors.line_bg },
+    Special                   = { fg = colors.red_key_w },
+    SpecialChar               = { fg = colors.green_func },
+    SpecialComment            = { fg = colors.pink },
+    SpecialKey                = { fg = colors.gray_punc, style = 'bold' },
+    SpellBad                  = { fg = colors.red_key_w, style = 'underline' },
+    SpellCap                  = { fg = colors.orange, style = 'underline' },
+    SpellLocal                = { fg = colors.green, style = 'underline' },
+    SpellRare                 = { fg = colors.pink, style = 'underline' },
+    Statement                 = { fg = colors.red_key_w },
+    StatusLine                = { fg = colors.line_fg, bg = colors.black },
+    StatusLineNC              = { fg = colors.line_fg, bg = colors.black },
+    StatusLineSeparator       = { fg = colors.dark },
+    StatusLineTerm            = { fg = colors.green_func, bg = colors.black },
+    StatusLineTermNC          = { fg = colors.gray_punc, bg = colors.black },
+    StorageClass              = { fg = colors.red_key_w },
+    String                    = { fg = colors.green_func },
+    Structure                 = { fg = colors.blue_func },
+    Substitute                = { fg = colors.gray2, bg = colors.orange },
 
-    TabLine      = { fg = colors.line_fg },
-    TabLineFill  = { fg = colors.line_fg },
-    TabLineSel   = { fg = colors.fg },
-    Tag          = { fg = colors.line_fg },
-    TermCursor   = { fg = colors.cursor_fg, bg = colors.cursor_bg },
-    TermCursorNC = { fg = colors.cursor_fg, bg = colors.cursor_bg },
-    Title        = { fg = colors.line_fg },
-    Todo         = { fg = colors.red_key_w, style = 'bold' },
-    Type         = { fg = colors.yellow, style = config.italic_keywords },
-    Typedef      = { fg = colors.yellow, style = config.italic_keywords },
+    TabLine                   = { fg = colors.line_fg },
+    TabLineFill               = { fg = colors.line_fg },
+    TabLineSel                = { fg = colors.fg },
+    Tag                       = { fg = colors.line_fg },
+    TermCursor                = { fg = colors.cursor_fg, bg = colors.cursor_bg },
+    TermCursorNC              = { fg = colors.cursor_fg, bg = colors.cursor_bg },
+    Title                     = { fg = colors.line_fg },
+    Todo                      = { fg = colors.red_key_w, style = 'bold' },
+    Type                      = { fg = colors.yellow, style = config.italic_keywords },
+    Typedef                   = { fg = colors.yellow, style = config.italic_keywords },
 
-    Variable  = { fg = colors.white },
-    VertSplit = { fg = colors.vsplit_bg },
-    Visual    = { fg = "NONE", bg = colors.visual_select_bg, style = 'bold' },
-    VisualNOS = { fg = colors.selection_fg, bg = colors.selection_bg },
+    Variable                  = { fg = colors.white },
+    VertSplit                 = { fg = colors.vsplit_bg },
+    Visual                    = { fg = "NONE", bg = colors.visual_select_bg, style = 'bold' },
+    VisualNOS                 = { fg = colors.selection_fg, bg = colors.selection_bg },
 
-    WarningMsg = { fg = colors.orange_wr, bg = colors.none },
-    Whitespace = { fg = colors.non_text },
-    WildMenu   = { fg = colors.fg },
-    lCursor    = { fg = colors.cursor_fg, bg = colors.cursor_bg },
+    WarningMsg                = { fg = colors.orange_wr, bg = colors.none },
+    Whitespace                = { fg = colors.non_text },
+    WildMenu                  = { fg = colors.fg },
+    lCursor                   = { fg = colors.cursor_fg, bg = colors.cursor_bg },
 
     -- Markdown
     markdownBold              = { fg = colors.white, style = 'bold' },
@@ -176,29 +177,29 @@ M.plugins = {
     -----------------------------------------
     --   Buffer:
     -----------------------------------------
-    BufferCurrent        = { fg = colors.fg, bg = colors.dark },
-    BufferCurrentIndex   = { fg = colors.fg, bg = colors.bg },
-    BufferCurrentMod     = { fg = colors.yellow, bg = colors.bg },
-    BufferCurrentSign    = { fg = colors.blue_func, bg = colors.bg },
-    BufferCurrentTarget  = { fg = colors.red_key_w, bg = colors.bg, style = 'bold' },
-    BufferInactive       = { fg = colors.gray2, bg = colors.dark },
-    BufferInactiveIndex  = { fg = colors.gray2, bg = colors.dark },
-    BufferInactiveMod    = { fg = colors.yellow, bg = colors.dark },
-    BufferInactiveSign   = { fg = colors.gray2, bg = colors.dark },
-    BufferInactiveTarget = { fg = colors.red_key_w, bg = colors.dark, style = 'bold' },
-    BufferVisible        = { fg = colors.fg, bg = colors.bg },
-    BufferVisibleIndex   = { fg = colors.fg, bg = colors.bg },
-    BufferVisibleMod     = { fg = colors.yellow, bg = colors.bg },
-    BufferVisibleSign    = { fg = colors.green, bg = colors.bg },
-    BufferVisibleTarget  = { fg = colors.red_key_w, bg = colors.bg, style = 'bold' },
-    BufferLineFill       = { fg = colors.fg, bg = colors.dark, style = 'bold' },
+    BufferCurrent          = { fg = colors.fg, bg = colors.dark },
+    BufferCurrentIndex     = { fg = colors.fg, bg = colors.bg },
+    BufferCurrentMod       = { fg = colors.yellow, bg = colors.bg },
+    BufferCurrentSign      = { fg = colors.blue_func, bg = colors.bg },
+    BufferCurrentTarget    = { fg = colors.red_key_w, bg = colors.bg, style = 'bold' },
+    BufferInactive         = { fg = colors.gray2, bg = colors.dark },
+    BufferInactiveIndex    = { fg = colors.gray2, bg = colors.dark },
+    BufferInactiveMod      = { fg = colors.yellow, bg = colors.dark },
+    BufferInactiveSign     = { fg = colors.gray2, bg = colors.dark },
+    BufferInactiveTarget   = { fg = colors.red_key_w, bg = colors.dark, style = 'bold' },
+    BufferVisible          = { fg = colors.fg, bg = colors.bg },
+    BufferVisibleIndex     = { fg = colors.fg, bg = colors.bg },
+    BufferVisibleMod       = { fg = colors.yellow, bg = colors.bg },
+    BufferVisibleSign      = { fg = colors.green, bg = colors.bg },
+    BufferVisibleTarget    = { fg = colors.red_key_w, bg = colors.bg, style = 'bold' },
+    BufferLineFill         = { fg = colors.fg, bg = colors.dark, style = 'bold' },
     -----------------------------------------
 
-    WhichKey = { fg = colors.blue_func, },
-    WhichKeySeperator = { fg = colors.red_key_w, },
-    WhichKeyGroup = { fg = colors.pink },
-    WhichKeyDesc = { fg = colors.white },
-    WhichKeyFloat = { bg = colors.dark },
+    WhichKey               = { fg = colors.blue_func, },
+    WhichKeySeperator      = { fg = colors.red_key_w, },
+    WhichKeyGroup          = { fg = colors.pink },
+    WhichKeyDesc           = { fg = colors.white },
+    WhichKeyFloat          = { bg = colors.dark },
 
     -----------------------------------------
     --   Cmp:    github.com/hrsh7th/nvim-cmp
@@ -228,9 +229,9 @@ M.plugins = {
     -----------------------------------------
     --    Dashboard: github.com/glepnir/dashboard-nvim
     -----------------------------------------
-    DashboardCenter = { fg = colors.white },
-    DashboardFooter = { fg = colors.yellow },
-    DashboardHeader = { fg = colors.blue_func },
+    DashboardCenter        = { fg = colors.white },
+    DashboardFooter        = { fg = colors.yellow },
+    DashboardHeader        = { fg = colors.blue_func },
     -----------------------------------------
 
 
@@ -287,27 +288,27 @@ M.plugins = {
     -----------------------------------------
     --   Lsp: neovim.io/doc/user/lsp.html
     -----------------------------------------
-    DiagnosticVirtualTextInfo = { fg = colors.yellow },
-    DiagnosticHint            = { fg = colors.blue_func },
-    DiagnosticError           = { fg = colors.red_err },
-    DiagnosticInfo            = { fg = colors.yellow },
-    DiagnosticVirtualTextWarn = { fg = colors.orange_wr },
-    DiagnosticWarn            = { fg = colors.orange_wr },
+    DiagnosticVirtualTextInfo  = { fg = colors.yellow },
+    DiagnosticHint             = { fg = colors.blue_func },
+    DiagnosticError            = { fg = colors.red_err },
+    DiagnosticInfo             = { fg = colors.yellow },
+    DiagnosticVirtualTextWarn  = { fg = colors.orange_wr },
+    DiagnosticWarn             = { fg = colors.orange_wr },
 
-    DiagnosticFloatingError = { fg = colors.red_err },
-    DiagnosticFloatingHint  = { fg = colors.blue_func },
-    DiagnosticFloatingInfo  = { fg = colors.yellow },
-    DiagnosticFloatingWarn  = { fg = colors.orange_wr },
+    DiagnosticFloatingError    = { fg = colors.red_err },
+    DiagnosticFloatingHint     = { fg = colors.blue_func },
+    DiagnosticFloatingInfo     = { fg = colors.yellow },
+    DiagnosticFloatingWarn     = { fg = colors.orange_wr },
 
-    DiagnosticSignError = { fg = colors.red_err, bg = colors.line_bg },
-    DiagnosticSignHint  = { fg = colors.blue_func, bg = colors.line_bg },
-    DiagnosticSignInfo  = { fg = colors.yellow, bg = colors.line_bg },
-    DiagnosticSignWarn  = { fg = colors.orange_wr, bg = colors.line_bg },
+    DiagnosticSignError        = { fg = colors.red_err, bg = colors.line_bg },
+    DiagnosticSignHint         = { fg = colors.blue_func, bg = colors.line_bg },
+    DiagnosticSignInfo         = { fg = colors.yellow, bg = colors.line_bg },
+    DiagnosticSignWarn         = { fg = colors.orange_wr, bg = colors.line_bg },
 
-    DiagnosticUnderlineError = { style = 'underline' },
-    DiagnosticUnderlineHint  = { style = 'underline' },
-    DiagnosticUnderlineInfo  = { style = 'underline' },
-    DiagnosticUnderlineWarn  = { style = 'underline' },
+    DiagnosticUnderlineError   = { style = 'underline' },
+    DiagnosticUnderlineHint    = { style = 'underline' },
+    DiagnosticUnderlineInfo    = { style = 'underline' },
+    DiagnosticUnderlineWarn    = { style = 'underline' },
 
     DiagnosticVirtualTextError = { fg = colors.red_err },
     DiagnosticVirtualTextHint  = { fg = colors.gray2 },
@@ -316,81 +317,81 @@ M.plugins = {
     -----------------------------------------
     -- NerdTree: github.com/preservim/nerdtree
     -----------------------------------------
-    Directory               = { fg = colors.white },
-    NERDTreeUp              = { fg = colors.yellow },
-    NERDTreeDir             = { fg = colors.blue_func },
-    NERDTreeOpenable        = { fg = colors.comment },
-    NERDTreeClosable        = { fg = colors.red_key_w },
-    NERDTreeIgnore          = { fg = colors.comment },
-    NERDTreeHelpKey         = { fg = colors.white },
-    NERDTreeHelpTitle       = { fg = colors.pink },
-    NERDTreeToggleOn        = { fg = colors.green_func },
-    NERDTreeToggleOff       = { fg = colors.orange },
-    NERDTreeHelpCommand     = { fg = colors.yellow },
-    NERDTreeFile            = { fg = colors.white },
-    NERDTreeLinkTarget      = { fg = colors.blue_func },
-    NERDTreeLinkFile        = { fg = colors.green_func },
-    NERDTreeLinkDir         = { fg = colors.pink },
-    NERDTreeNodeDelimiters  = { fg = colors.comment },
-    NERDTreeDirSlash        = { fg = colors.comment },
-    NERDTreeExecFile        = { fg = colors.green_func },
-    NERDTreeRO              = { fg = colors.orange },
-    NERDTreeBookmarkName    = { fg = colors.orange },
-    NERDTreeFlags           = { fg = colors.red_key_w },
-    NERDTreeCWD             = { fg = colors.red_key_w },
-    NERDTreeBookmarksLeader = { fg = colors.blue_func },
-    NERDTreeBookmarksHeader = { fg = colors.red_key_w },
-    NERDTreeBookmark        = { fg = colors.orange },
-    NERDTreePart            = { fg = colors.orange },
-    NERDTreePartFile        = { fg = colors.blue_func },
-    NERDTreeCurrentNode     = { fg = colors.comment },
+    Directory                  = { fg = colors.white },
+    NERDTreeUp                 = { fg = colors.yellow },
+    NERDTreeDir                = { fg = colors.blue_func },
+    NERDTreeOpenable           = { fg = colors.comment },
+    NERDTreeClosable           = { fg = colors.red_key_w },
+    NERDTreeIgnore             = { fg = colors.comment },
+    NERDTreeHelpKey            = { fg = colors.white },
+    NERDTreeHelpTitle          = { fg = colors.pink },
+    NERDTreeToggleOn           = { fg = colors.green_func },
+    NERDTreeToggleOff          = { fg = colors.orange },
+    NERDTreeHelpCommand        = { fg = colors.yellow },
+    NERDTreeFile               = { fg = colors.white },
+    NERDTreeLinkTarget         = { fg = colors.blue_func },
+    NERDTreeLinkFile           = { fg = colors.green_func },
+    NERDTreeLinkDir            = { fg = colors.pink },
+    NERDTreeNodeDelimiters     = { fg = colors.comment },
+    NERDTreeDirSlash           = { fg = colors.comment },
+    NERDTreeExecFile           = { fg = colors.green_func },
+    NERDTreeRO                 = { fg = colors.orange },
+    NERDTreeBookmarkName       = { fg = colors.orange },
+    NERDTreeFlags              = { fg = colors.red_key_w },
+    NERDTreeCWD                = { fg = colors.red_key_w },
+    NERDTreeBookmarksLeader    = { fg = colors.blue_func },
+    NERDTreeBookmarksHeader    = { fg = colors.red_key_w },
+    NERDTreeBookmark           = { fg = colors.orange },
+    NERDTreePart               = { fg = colors.orange },
+    NERDTreePartFile           = { fg = colors.blue_func },
+    NERDTreeCurrentNode        = { fg = colors.comment },
 
 
     -----------------------------------------
     -- Startify: github.com/mhinz/vim-startify
     -----------------------------------------
-    StartifyEndOfBuffer = { fg = colors.non_text },
-    StartifyNumber      = { fg = colors.red_key_w },
-    StartifySelect      = { fg = colors.comment },
-    StartifyBracket     = { fg = colors.white },
-    StartifySpecial     = { fg = colors.yellow },
-    StartifyVar         = { fg = colors.comment },
-    StartifyPath        = { fg = colors.comment },
-    StartifyFile        = { fg = colors.blue_func },
-    StartifySlash       = { fg = colors.comment },
-    StartifyHeader      = { fg = colors.blue_func },
-    StartifyFooter      = { fg = colors.pink },
-    StartifySection     = { fg = colors.pink },
+    StartifyEndOfBuffer                  = { fg = colors.non_text },
+    StartifyNumber                       = { fg = colors.red_key_w },
+    StartifySelect                       = { fg = colors.comment },
+    StartifyBracket                      = { fg = colors.white },
+    StartifySpecial                      = { fg = colors.yellow },
+    StartifyVar                          = { fg = colors.comment },
+    StartifyPath                         = { fg = colors.comment },
+    StartifyFile                         = { fg = colors.blue_func },
+    StartifySlash                        = { fg = colors.comment },
+    StartifyHeader                       = { fg = colors.blue_func },
+    StartifyFooter                       = { fg = colors.pink },
+    StartifySection                      = { fg = colors.pink },
 
     -----------------------------------------
     --   LspDiagnostics:
     -----------------------------------------
-    LspDiagnosticsDefaultHint            = { fg = colors.blue_func }, -- Deprecated
-    LspDiagnosticsError                  = { fg = colors.red_err }, -- Deprecated
-    LspDiagnosticsFloatingError          = { fg = colors.red_err }, -- Deprecated
-    LspDiagnosticsFloatingHint           = { fg = colors.blue_func }, -- Deprecated
-    LspDiagnosticsFloatingInformation    = { fg = colors.yellow }, -- Deprecated
-    LspDiagnosticsFloatingWarning        = { fg = colors.orange_wr }, -- Deprecated
-    LspDiagnosticsHint                   = { fg = colors.blue_func }, -- Deprecated
-    LspDiagnosticsInformation            = { fg = colors.yellow }, -- Deprecated
-    LspDiagnosticsSignHint               = { fg = colors.blue_func }, -- Deprecated
-    LspDiagnosticsSignInformation        = { fg = colors.yellow }, -- Deprecated
-    LspDiagnosticsSignWarning            = { fg = colors.orange_wr }, -- Deprecated
-    LspDiagnosticsUnderlineError         = { style = 'underline' }, -- Deprecated
-    LspDiagnosticsUnderlineHint          = { style = 'underline' }, -- Deprecated
-    LspDiagnosticsUnderlineWarning       = { style = 'underline' }, -- Deprecated
-    LspDiagnosticsVirtualTextWarning     = { fg = colors.orange_wr }, -- Deprecated
-    LspDiagnosticsWarning                = { fg = colors.orange_wr }, -- Deprecated
+    LspDiagnosticsDefaultHint            = { fg = colors.blue_func },                 -- Deprecated
+    LspDiagnosticsError                  = { fg = colors.red_err },                   -- Deprecated
+    LspDiagnosticsFloatingError          = { fg = colors.red_err },                   -- Deprecated
+    LspDiagnosticsFloatingHint           = { fg = colors.blue_func },                 -- Deprecated
+    LspDiagnosticsFloatingInformation    = { fg = colors.yellow },                    -- Deprecated
+    LspDiagnosticsFloatingWarning        = { fg = colors.orange_wr },                 -- Deprecated
+    LspDiagnosticsHint                   = { fg = colors.blue_func },                 -- Deprecated
+    LspDiagnosticsInformation            = { fg = colors.yellow },                    -- Deprecated
+    LspDiagnosticsSignHint               = { fg = colors.blue_func },                 -- Deprecated
+    LspDiagnosticsSignInformation        = { fg = colors.yellow },                    -- Deprecated
+    LspDiagnosticsSignWarning            = { fg = colors.orange_wr },                 -- Deprecated
+    LspDiagnosticsUnderlineError         = { style = 'underline' },                   -- Deprecated
+    LspDiagnosticsUnderlineHint          = { style = 'underline' },                   -- Deprecated
+    LspDiagnosticsUnderlineWarning       = { style = 'underline' },                   -- Deprecated
+    LspDiagnosticsVirtualTextWarning     = { fg = colors.orange_wr },                 -- Deprecated
+    LspDiagnosticsWarning                = { fg = colors.orange_wr },                 -- Deprecated
     LspReferenceRead                     = { bg = colors.fg_gutter, style = 'bold' }, -- Deprecated
     LspReferenceText                     = { bg = colors.fg_gutter, style = 'bold' }, -- Deprecated
     LspReferenceWrite                    = { bg = colors.fg_gutter, style = 'bold' }, -- Deprecated
-    LspDiagnosticsDefaultError           = { fg = colors.red_err }, -- Deprecated
-    LspDiagnosticsSignError              = { fg = colors.red_err }, -- Deprecated
-    LspDiagnosticsDefaultWarning         = { fg = colors.yellow }, -- Deprecated
-    LspDiagnosticsDefaultInformation     = { fg = colors.yellow }, -- Deprecated
-    LspDiagnosticsVirtualTextHint        = { fg = colors.gray2 }, -- Deprecated
-    LspDiagnosticsVirtualTextInformation = { fg = colors.yellow }, -- Deprecated
-    LspDiagnosticsUnderlineInformation   = { style = 'underline' }, -- Deprecated
+    LspDiagnosticsDefaultError           = { fg = colors.red_err },                   -- Deprecated
+    LspDiagnosticsSignError              = { fg = colors.red_err },                   -- Deprecated
+    LspDiagnosticsDefaultWarning         = { fg = colors.yellow },                    -- Deprecated
+    LspDiagnosticsDefaultInformation     = { fg = colors.yellow },                    -- Deprecated
+    LspDiagnosticsVirtualTextHint        = { fg = colors.gray2 },                     -- Deprecated
+    LspDiagnosticsVirtualTextInformation = { fg = colors.yellow },                    -- Deprecated
+    LspDiagnosticsUnderlineInformation   = { style = 'underline' },                   -- Deprecated
     -----------------------------------------
 
 
@@ -469,42 +470,42 @@ M.plugins = {
     -----------------------------------------
     --    telescope: github.com/nvim-telescope/telescope.nvim
     -----------------------------------------
-    TelescopeBorder       = { fg = colors.white, bg = config.transparent_background and 'NONE' or colors.bg },
-    TelescopeMatching     = { fg = colors.yellow },
-    TelescopePromptPrefix = { fg = colors.green_func },
-    TelescopeSelection    = { fg = colors.line_fg, bg = colors.black1 },
+    TelescopeBorder          = { fg = colors.white, bg = config.transparent_background and 'NONE' or colors.bg },
+    TelescopeMatching        = { fg = colors.yellow },
+    TelescopePromptPrefix    = { fg = colors.green_func },
+    TelescopeSelection       = { fg = colors.line_fg, bg = colors.black1 },
     -----------------------------------------
 
     -----------------------------------------
     -- https://github.com/folke/trouble.nvim
     -----------------------------------------
-    TroubleTextInformation = { fg = colors.blue_func },
-    TroubleFile = { fg = colors.yellow }, -- the source file that has error
-    TroubleFoldIcon = { fg = colors.blue_func }, -- fold icon color
-    TroubleCount = { fg = colors.red_key_w },
-    TroubleError = { fg = colors.red_key_w, bg = colors.line_fg },
+    TroubleTextInformation   = { fg = colors.blue_func },
+    TroubleFile              = { fg = colors.yellow },    -- the source file that has error
+    TroubleFoldIcon          = { fg = colors.blue_func }, -- fold icon color
+    TroubleCount             = { fg = colors.red_key_w },
+    TroubleError             = { fg = colors.red_key_w, bg = colors.line_fg },
 
-    TroubleTextError = { fg = colors.red_key_w }, -- error info text
-    TroubleNormal = { fg = colors.white },
-    TroubleLocation = { fg = colors.white }, -- location of error
-    TroubleIndent = { fg = colors.comment }, -- indent color
+    TroubleTextError         = { fg = colors.red_key_w }, -- error info text
+    TroubleNormal            = { fg = colors.white },
+    TroubleLocation          = { fg = colors.white },     -- location of error
+    TroubleIndent            = { fg = colors.comment },   -- indent color
 
-    TroubleCode = { fg = colors.orange_wr },
-    TroubleSignError = { fg = colors.red_key_w }, -- error sign color
+    TroubleCode              = { fg = colors.orange_wr },
+    TroubleSignError         = { fg = colors.red_key_w }, -- error sign color
 
-    TroubleSignWarning     = { fg = colors.orange_wr },
-    TroubleWarning         = { fg = colors.orange_wr },
-    TroublePreview         = { fg = colors.red_key_w },
-    TroubleSignInformation = { fg = colors.white },
+    TroubleSignWarning       = { fg = colors.orange_wr },
+    TroubleWarning           = { fg = colors.orange_wr },
+    TroublePreview           = { fg = colors.red_key_w },
+    TroubleSignInformation   = { fg = colors.white },
 
-    TroubleSource = { fg = colors.blue_func },
-    TroubleSignHint = { fg = colors.green },
-    TroubleSignOther = { fg = colors.green },
-    TroubleTextWarning = { fg = colors.orange_wr },
-    TroubleInformation = { fg = colors.white },
-    TroubleHint = { fg = colors.orange_wr },
-    TroubleTextHint = { fg = colors.white },
-    TroubleText = { fg = colors.white },
+    TroubleSource            = { fg = colors.blue_func },
+    TroubleSignHint          = { fg = colors.green },
+    TroubleSignOther         = { fg = colors.green },
+    TroubleTextWarning       = { fg = colors.orange_wr },
+    TroubleInformation       = { fg = colors.white },
+    TroubleHint              = { fg = colors.orange_wr },
+    TroubleTextHint          = { fg = colors.white },
+    TroubleText              = { fg = colors.white },
 
 
     -----------------------------------------
@@ -551,7 +552,7 @@ M.plugins = {
     TSCharacter          = { fg = colors.yellow },
     TSCharacterSpecial   = { fg = colors.pink },
     TSComment            = { fg = colors.comment, style = config.italic_comments },
-    TSConditional        = { fg = colors.red_key_w,  style = config.italic_keywords },
+    TSConditional        = { fg = colors.red_key_w, style = config.italic_keywords },
     TSConstBuiltin       = { fg = colors.pink },
     TSConstMacro         = { fg = colors.red_key_w },
     TSConstant           = { fg = colors.pink },
@@ -561,9 +562,9 @@ M.plugins = {
     TSException          = { fg = colors.red_key_w },
     TSField              = { fg = colors.white },
     TSFloat              = { fg = colors.orange },
-    TSFuncBuiltin        = { fg = colors.pink, style = config.italic_functions  },
-    TSFuncMacro          = { fg = colors.blue_func, style = config.italic_functions  },
-    TSFunction           = { fg = colors.blue_func, style = config.italic_functions  },
+    TSFuncBuiltin        = { fg = colors.pink, style = config.italic_functions },
+    TSFuncMacro          = { fg = colors.blue_func, style = config.italic_functions },
+    TSFunction           = { fg = colors.blue_func, style = config.italic_functions },
     TSInclude            = { fg = colors.red_key_w },
     TSKeyword            = { fg = colors.red_key_w, style = config.italic_keywords },
     TSKeywordFunction    = { fg = colors.red_key_w, style = config.italic_functions },
@@ -602,8 +603,8 @@ M.plugins = {
     TSTypeQualifier      = { fg = colors.red_key_w },
     TSURI                = { fg = colors.green_func, style = 'underline' },
     TSUnderline          = { style = 'underline' },
-    TSVariable           = { fg = colors.white, style = config.italic_variables  },
-    TSVariableBuiltin    = { fg = colors.pink, style = config.italic_variables  },
+    TSVariable           = { fg = colors.white, style = config.italic_variables },
+    TSVariableBuiltin    = { fg = colors.pink, style = config.italic_variables },
     TSDefine             = { fg = colors.red_key_w },
     -----------------------------------------
 
