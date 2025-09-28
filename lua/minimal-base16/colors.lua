@@ -1,7 +1,7 @@
 return {
     fg               = "#CACBD4",
-    bg               = "#1D1F21",
-    none             = "#1D1F21",
+    bg               = "#1B1D1E",
+    none             = "#1B1D1E",
     --1A1C1D
     dark             = '#1A1C1D',
     comment          = "#63676b",
@@ -33,7 +33,7 @@ return {
     black1           = "#2C2D32",
     black            = "#63676b",
     white1           = "#CACBD4",
-    white            = "#ffffff",
+    white            = "#CACBD4",
     gray_punc        = "#43484B",
     gray2            = "#76777B",
     gray1            = '#3B3D42',
