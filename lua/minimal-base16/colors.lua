@@ -9,7 +9,7 @@ return {
     cursor_fg        = '#6D6F73',
     context          = '#515A61',
     cursor_bg        = '#767777',
-    accent           = '#BBBBBB',
+    accent           = '#c5c8c6',
     diff_add         = '#b5bd68',
     diff_change      = '#6CAEC0',
     cl_bg            = "#687177",
@@ -20,7 +20,7 @@ return {
     non_text         = "#606365",
     selection_bg     = "#464F55",
     selection_fg     = "#495163",
-    vsplit_fg        = "#cccccc",
+    vsplit_fg        = "#c5c8c6",
     vsplit_bg        = "#26282C",
     visual_select_bg = "#2A2F32",
 
