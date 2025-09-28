@@ -1,5 +1,5 @@
 return {
-    fg               = "#CDCDCD",
+    fg               = "#c5c8c6",
     bg               = "#1B1D1E",
     none             = "#1B1D1E",
     --1A1C1D
@@ -32,8 +32,8 @@ return {
     blue_func        = "#8abeb7",
     black1           = "#2C2D32",
     black            = "#63676b",
-    white1           = "#CDCDCD",
-    white            = "#CDCDCD",
+    white1           = "#c5c8c6",
+    white            = "#c5c8c6",
     gray_punc        = "#43484B",
     gray2            = "#76777B",
     gray1            = '#3B3D42',
