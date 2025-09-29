@@ -17,9 +17,10 @@ Both colors are designed with Go and Rust in mind, and tested against few other 
 If any of the colors does not syntax-highlight your langauge satisfactorily, please feel free to fork the repo and do changes as needed.
 
 ### [minimal]
-   ![screenshot_1](https://github.com/Yazeed1s/minimal.nvim/blob/main/screenshots/Minimal--1.png)
-   ![screenshot_2](https://github.com/Yazeed1s/minimal.nvim/blob/main/screenshots/Minimal--2.png)
-   ![screenshot_3](https://github.com/Yazeed1s/minimal.nvim/blob/main/screenshots/Minimal--3.png)
+   ![screenshot_1](screenshots/screenshot1.png)
+   ![screenshot_2](screenshots/screenshot2.png)
+   ![screenshot_3](screenshots/screenshot3.png)
+   ![screenshot_4](screenshots/screenshot4.png)
 
 ## Plugin Support
 
