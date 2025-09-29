@@ -1,7 +1,7 @@
 return {
     fg               = "#c5c8c6",
-    bg               = "#1B1D1E",
-    none             = "#1B1D1E",
+    bg               = "#1d1f21",
+    none             = "#1d1f21",
     --1A1C1D
     dark             = "#1d1f21",
     comment          = "#63676b",
