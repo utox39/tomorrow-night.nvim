@@ -9,14 +9,8 @@ A [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter) supported col
 
 - support the latest Neovim >=5.0 features like TreeSitter and LSP
 - darker background for sidebar
-- color configs for [Kitty](https://sw.kovidgoyal.net/kitty/conf.html?highlight=include) and [Alacritty](https://github.com/alacritty/alacritty). Created by [miguelaht](https://github.com/miguelaht).
 
-
-## Note:
-Both colors are designed with Go and Rust in mind, and tested against few other languages.\
-If any of the colors does not syntax-highlight your langauge satisfactorily, please feel free to fork the repo and do changes as needed.
-
-### [minimal]
+### [Tomorrow Night in action]
    ![screenshot_1](screenshots/screenshot1.png)
    ![screenshot_2](screenshots/screenshot2.png)
    ![screenshot_3](screenshots/screenshot3.png)
