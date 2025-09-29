@@ -1,5 +1,5 @@
-local colors = require 'minimal-base16.colors'
-local config = require 'minimal-base16.config'
+local colors = require 'tomorrow-night.colors'
+local config = require 'tomorrow-night.config'
 
 local M = {}
 
